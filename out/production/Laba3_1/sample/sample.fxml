@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="TextField1" layoutX="25.0" layoutY="61.0" prefHeight="25.0" prefWidth="76.0" />
+      <Text layoutX="119.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Параметр Q" wrappingWidth="76.0" />
+      <Text layoutX="30.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Параметр P" wrappingWidth="65.33673858642578" />
+      <Text layoutX="216.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Данные файла" wrappingWidth="150.13672637939453" />
+      <Button fx:id="button1" layoutX="528.0" layoutY="230.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="111.0" text="Открыть файл" />
+      <Button fx:id="button2" layoutX="528.0" layoutY="301.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="111.0" text="Сохранить файл" />
+      <Button fx:id="button3" layoutX="48.0" layoutY="463.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="122.0" text="Зашифровать " />
+      <Button fx:id="button4" layoutX="305.0" layoutY="463.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="122.0" text="Расшифровать" />
+      <TextField fx:id="TextField4" layoutX="48.0" layoutY="406.0" prefHeight="25.0" prefWidth="51.0" promptText="e" />
+      <TextField fx:id="TextField2" layoutX="112.0" layoutY="61.0" prefHeight="25.0" prefWidth="76.0" />
+      <TextField fx:id="TextField3" layoutX="203.0" layoutY="61.0" prefHeight="25.0" prefWidth="76.0" />
+      <Text layoutX="203.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Приватный ключ Кс (d)" wrappingWidth="76.0" />
+      <Button fx:id="button5" layoutX="50.0" layoutY="103.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="170.0" text="Вычислить открытый ключ" wrapText="true" />
+      <Label fx:id="Label" layoutX="324.0" layoutY="45.0" prefHeight="63.0" prefWidth="326.0" text="Результат">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Text layoutX="204.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сгенерированные числа" wrappingWidth="150.13672637939453" />
+      <Label layoutX="59.0" layoutY="372.0" prefHeight="17.0" prefWidth="144.0" text="Открытый ключ" />
+      <TextField fx:id="TextField5" layoutX="109.0" layoutY="406.0" prefHeight="25.0" prefWidth="51.0" promptText="r" />
+      <TextField fx:id="TextField6" layoutX="309.0" layoutY="403.0" prefHeight="25.0" prefWidth="51.0" promptText="d" />
+      <Label layoutX="311.0" layoutY="372.0" prefHeight="17.0" prefWidth="144.0" text="Закрытый ключ" />
+      <TextField fx:id="TextField7" layoutX="373.0" layoutY="403.0" prefHeight="25.0" prefWidth="51.0" promptText="r" />
+      <TextField fx:id="TextField8" layoutX="48.0" layoutY="233.0" prefHeight="25.0" prefWidth="438.0" />
+      <TextField fx:id="TextField9" layoutX="50.0" layoutY="304.0" prefHeight="25.0" prefWidth="445.0" />
+      <Label layoutX="335.0" layoutY="20.0" prefHeight="17.0" prefWidth="111.0" text="Открытый ключ" />
+   </children>
+</Pane>
